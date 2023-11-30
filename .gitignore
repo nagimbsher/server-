@@ -1,7 +1,15 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
+# # dependencies
+# /node_modules
 
-package-lock.json
-.env
+# package-lock.json
+# .env
+
+# Ignore node_modules directories
+**/node_modules
+
+# Ignore package-lock.json files
+**package-lock.json
+
+**.env
